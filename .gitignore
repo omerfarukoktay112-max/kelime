@@ -39,3 +39,7 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Expo prebuild çıktıları (npx expo run:ios / run:android)
+/ios
+/android

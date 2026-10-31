@@ -1,25 +1,62 @@
 {
   "expo": {
-    "name": "kelime",
+    "name": "Kelime",
     "slug": "kelime",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kelime.app",
+      "icon": {
+        "light": "./assets/icon-light.png",
+        "dark": "./assets/icon.png"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#2d1b69",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.kelime.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Sesli çalışma modunda telaffuzunu dinlemek için mikrofona erişim gerekiyor.",
+          "speechRecognitionPermission": "Söylediğin İngilizce kelimeyi tanımak için konuşma tanıma izni gerekiyor."
+        }
+      ],
+      "expo-audio",
+      "expo-sharing",
+      "expo-asset",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-light.png",
+          "backgroundColor": "#d2e496",
+          "imageWidth": 120,
+          "dark": {
+            "image": "./assets/splash-dark.png",
+            "backgroundColor": "#2d1b69"
+          }
+        }
+      ]
+    ],
+    "scheme": "kelime",
+    "backgroundColor": "#2d1b69",
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
