@@ -57,6 +57,12 @@
     "backgroundColor": "#2d1b69",
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bff878f9-abba-430b-aacc-728252851543"
+      }
+    },
+    "owner": "lamnoble"
   }
 }
