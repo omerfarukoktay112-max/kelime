@@ -2,7 +2,7 @@
   "expo": {
     "name": "Kelime",
     "slug": "kelime",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -21,7 +21,8 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.kelime.app"
+      "package": "com.kelime.app",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
