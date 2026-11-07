@@ -22,6 +22,9 @@ elden geçirilmiş, eş anlamlılar ve aynı Türkçe karşılığa sahip kelime
 Hesap açmak yok, internet gerekmiyor, reklam yok. Tüm ilerlemen telefonunda kalır; istersen tek dokunuşla yedekleyip
 başka telefona taşırsın.
 
+> 💻 **Bilgisayarda da var:** Windows sürümü için [kelime-pc](https://github.com/omerfarukoktay112-max/kelime-pc).
+> Telefondaki yedek dosyası bilgisayara, bilgisayardaki telefona yüklenebilir.
+
 ## Neler var?
 
 ### Üç çalışma modu
@@ -62,6 +65,11 @@ Ara verirsen ağaç küçülmez, sadece susar; bir sonraki hedefinde yeniden can
 
 ### Android
 [Releases](../../releases/latest) sayfasından `kelime.apk` dosyasını indirip telefona kur. Android, bilinmeyen kaynaklardan yükleme izni isteyebilir.
+
+### Windows
+[kelime-pc Releases](https://github.com/omerfarukoktay112-max/kelime-pc/releases/latest) sayfasından `kelime_x.y.z_x64-setup.exe`
+dosyasını indirip çalıştır (2 MB, yönetici izni istemez). Aynı kelimeler ve tekrar sistemi; klavye kısayolları ve sistem tepsisi
+desteğiyle, arkada açıkken bilgisayarı yormayacak şekilde yapıldı. Ayrıntılar: [kelime-pc](https://github.com/omerfarukoktay112-max/kelime-pc).
 
 ### iPhone / iPad
 Ücretli bir Apple geliştirici hesabı olmadığı için uygulama App Store'da ya da hazır kurulum dosyası olarak yok.
